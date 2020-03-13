@@ -2,6 +2,8 @@
 
 For projects to play with Go...
 
+Implementing: https://projecteuler.net/archives
+
 ## 1. fibonacci
 
 * `cd fibonacci`

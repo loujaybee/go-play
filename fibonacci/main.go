@@ -1,19 +1,19 @@
 package main
 
 import (
-    "fmt"
-    "flag"
+	"flag"
+	"fmt"
 )
 
 func main() {
 
-    var flagvar int
+	var flagvar int
 	flag.IntVar(&flagvar, "number", 0, "Number for fibonnaci")
-    flag.Parse()
+	flag.Parse()
 
-    result := fibonnaci(flagvar)
+	result := fibonnaci(flagvar)
 
-    fmt.Println(result)
+	fmt.Println(result)
 }
 
 // 0 = 0

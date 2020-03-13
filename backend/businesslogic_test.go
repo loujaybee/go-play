@@ -13,10 +13,6 @@ func TestStringLiteralResponse(t *testing.T) {
 	}
 }
 
-type response struct {
-    Repos []string
-}
-
 func TestFirstRepoRespones(t *testing.T) {
 	result := businesslogic("Hello")
 	var myStoredVariable response

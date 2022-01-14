@@ -13,7 +13,7 @@ Implementing: https://projecteuler.net/archives
 * To test: `go test`
 * To run: `go build && ./fibonacci --number="8"`
 
-### 2. fibonacci
+### 2. three and five
 
 * `cd three_and_five`
 * To test: `go test`

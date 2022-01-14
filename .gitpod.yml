@@ -2,5 +2,13 @@ tasks:
   - name: fibonacci
     init: cd fibonacci && go build
     command: cd fibonacci && go build && ./three_and_five  --number="10"
-  - name: other thing
-    command: cd fibonacci && go build && ./three_and_five  --number="10"
+    env: 
+      GO111MODULE: auto
+  - name: three and five
+    command: cd three_and_five && go build && ./three_and_five  --number="10"
+    env: 
+      GO111MODULE: auto
+  - name: backend
+    command: cd backend && go build && ./backend  --team="dx"
+    env: 
+      GO111MODULE: auto

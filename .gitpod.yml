@@ -1,4 +1,6 @@
 tasks:
-  - init: cd fibonacci && go build
-    name: fibonacci
+  - name: fibonacci
+    init: cd fibonacci && go build
+    command: cd fibonacci && go build && ./three_and_five  --number="10"
+  - name: other thing
     command: cd fibonacci && go build && ./three_and_five  --number="10"
